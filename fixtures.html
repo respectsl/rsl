@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="refresh" content="21600">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-33SEFYBZ3E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-33SEFYBZ3E');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixtures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+</head>
+<body>
+    <header class="header2" id="sticky-header">
+        <h1>FIXTURES</h1>
+        <nav>
+            <ul>
+                <li><a href="./">HOME</a></li>
+                <li><a href="./rules">RULES</a></li>
+                <li><a href="./fixtures">FIXTURES</a></li>
+                <li>
+                    <select id="myDropdown">
+                        <option value="" selected disabled>POINTS</option>
+                        <option value="./league_points">League</option>
+                        <option value="./group_a_points">Group A</option>
+                        <option value="./group_b_points">Group B</option>
+                        <option value="./archive">Archive</option>
+                        <!-- Add more local file options as needed -->
+                    </select>
+                </li>
+                <script>
+                    // JavaScript to handle dropdown change event
+                    document.getElementById("myDropdown").addEventListener("change", function() {
+                        var selectedOption = this.options[this.selectedIndex].value;
+                        if (selectedOption) {
+                            // Use window.open to open the local file
+                            window.location.href = selectedOption;
+                        }
+                    });
+                </script>
+                <li><a href="./teams">TEAMS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 
+            example of how to use different class
+            1) when the games are on a future date:
+            <section class="fixtures">
+                <h2>Week #<PUT WEEK #></h2>
+                <table>
+
+            2) when the games are compeleted:
+            <section class="done">
+                <h2>Week #<PUT WEEK #</h2>
+                <table class="donetable">
+
+            3) when on the current week
+            <section class="current">
+                <h2>Week #<PUT WEEK #</h2>
+                <table class="currenttable">
+        -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Fixtures</h2>
+        <section class="done">
+            <h2>Friendly Week</h2>
+            <table class="donetable">
+                <tr>
+                    <th>Home</th>
+                    <th>Scores</th>
+                    <th>Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 10/17/2023</th>
+                </tr>
+                <!-- Friendly Week -->
+                <tr>
+                    <td>🇺🇦 Divenate FC</td>
+                    <td> 2 - 3 </td>
+                    <td>🇹🇷 Samanyolu FC</td>
+                </tr>
+                <tr>
+                    <td>🇲🇦 Maghreb FC</td>
+                    <td> 6 - 7 </td>
+                    <td>⚡ El Clasico FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 10/19/2023</th>
+                </tr>
+                <tr>
+                    <td>𓅃 Hungry Hawks FC</td>
+                    <td> 0 - 9 </td>
+                    <td>🦅 Allentown Eagles FC</td>
+                </tr>
+                <tr>
+                    <td>🎯 MC FC</td>
+                    <td> 5 - 7 </td>
+                    <td>🐬 Blue Dolphins FC</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Week 1</h2>
+            <table class="donetable">
+                <tr>
+                    <th>Home</th>
+                    <th>Scores</th>
+                    <th>Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 10/24/2023</th>
+                </tr>
+                <!-- WEEK - 1 -->
+                <tr>
+                    <td>🎯 MC FC</td>
+                    <td>3 - 9</td>
+                    <td>🇹🇷 Samanyolu FC</td>
+                </tr>
+                <tr>
+                    <td>⚽️ Medina FC</td>
+                    <td>10 - 7</td>
+                    <td>⚔️ Terminators FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 10/26/2023</th>
+                </tr>
+                <tr>
+                    <td>🇲🇦 Maghreb FC</td>
+                    <td>6 - 4</td>
+                    <td>🦅 Allentown Eagles FC</td>
+                </tr>
+                <tr>
+                    <td>🐬 Blue Dolphins FC</td>
+                    <td>3 - 19</td>
+                    <td>⚡ El Clasico FC</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+        
+        <section class="done">
+            <h2>Week 2</h2>
+            <table class="donetable">
+                <tr>
+                    <th>Home</th>
+                    <th>Scores</th>
+                    <th>Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 10/31/2023</th>
+                </tr>
+                <!-- WEEK - 2 -->
+                <tr>
+                    <td>⚔️ Terminators FC</td>
+                    <td>11 - 3</td>
+                    <td>🎯 MC FC</td>
+                </tr>
+                <tr>
+                    <td>🦅 Allentown Eagles FC</td>
+                    <td> 8 - 1</td>
+                    <td>🇹🇷 Samanyolu FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 11/2/2023</th>
+                </tr>
+                <tr>
+                    <td>⚡ El Clasico FC</td>
+                    <td>3 - 4</td>
+                    <td>🇲🇦 Maghreb FC</td>
+                </tr>
+                <tr>
+                    <td>⚽️ Medina FC</td>
+                    <td>17 - 1</td>
+                    <td>🐬 Blue Dolphins FC</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Week 3</h2>
+            <table class="donetable">
+                <tr>
+                    <th>Home</th>
+                    <th>Scores</th>
+                    <th>Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 11/7/2023</th>
+                </tr>
+                <!-- WEEK - 3 -->
+                <tr>
+                    <td>🇲🇦 Maghreb FC</td>
+                    <td>5 - 6</td>
+                    <td>⚔️ Terminators FC</td>
+                </tr>
+                <tr>
+                    <td>🦅 Allentown Eagles FC</td>
+                    <td>2 - 2</td>
+                    <td>⚡ El Clasico FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 11/9/2023</th>
+                </tr>
+                <tr>
+                    <td>🎯 MC FC</td>
+                    <td>14 - 5</td>
+                    <td>🐬 Blue Dolphins FC</td>
+                </tr>
+                <tr>
+                    <td>⚽️ Medina FC</td>
+                    <td>11 - 6</td>
+                    <td>🇹🇷 Samanyolu FC</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Week 4</h2>
+            <table class="donetable">
+                <tr>
+                    <th>Home</th>
+                    <th>Scores</th>
+                    <th>Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 11/14/2023</th>
+                </tr>
+                <!-- WEEK - 4 -->
+                <tr>
+                    <td>🇹🇷 Samanyolu FC</td>
+                    <td>3 - 7</td>
+                    <td>⚔️ Terminators FC</td>
+                </tr>
+                <tr>
+                    <td>⚽️ Medina FC</td>
+                    <td>2 - 6</td>
+                    <td>🇲🇦 Maghreb FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 11/16/2023</th>
+                </tr>
+                <tr>
+                    <td>🎯 MC FC</td>
+                    <td>6 - 20</td>
+                    <td>⚡ El Clasico FC</td>
+                </tr>
+                <tr>
+                    <td>🐬 Blue Dolphins FC</td>
+                    <td>3 - 19</td>
+                    <td>🦅 Allentown Eagles FC</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="teams">
+            <br>
+            <br>
+            ‼️ 🦃 There will be no games from November 20th to November 24th due to Thanksgiving Holiday 🦃 ‼️
+            <br>
+            <br>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Week 5</h2>
+            <table class="donetable">
+                <tr>
+                    <th>Home</th>
+                    <th>Scores</th>
+                    <th>Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 11/28/2023</th>
+                </tr>
+                <!-- WEEK - 5 -->
+                <tr>
+                    <td>⚽️ Medina FC</td>
+                    <td>15 - 4</td>
+                    <td>🎯 MC FC</td>
+                </tr>
+                <tr>
+                    <td>🦅 Allentown Eagles FC</td>
+                    <td>5 - 7</td>
+                    <td>⚔️ Terminators FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 11/30/2023</th>
+                </tr>
+                <tr>
+                    <td>⚡ El Clasico FC</td>
+                    <td>7 - 1</td>
+                    <td>🇹🇷 Samanyolu FC</td>
+                </tr>
+                <tr>
+                    <td>🇲🇦 Maghreb FC</td>
+                    <td>16 - 3</td>
+                    <td>🐬 Blue Dolphins FC</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Week 6</h2>
+            <table class="donetable">
+                <tr>
+                    <th>Home</th>
+                    <th>Scores</th>
+                    <th>Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 12/5/2023</th>
+                </tr>
+                <!-- WEEK - 6 -->
+                <tr>
+                    <td>🎯 MC FC</td>
+                    <td>0 - 22</td>
+                    <td>🦅 Allentown Eagles FC</td>
+                </tr>
+                <tr>
+                    <td>⚡ El Clasico FC</td>
+                    <td>14 - 7</td>
+                    <td>⚽️ Medina FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 12/7/2023</th>
+                </tr>
+                <tr>
+                    <td>🇹🇷 Samanyolu FC</td>
+                    <td>7 - 6</td>
+                    <td>🇲🇦 Maghreb FC</td>
+                </tr>
+                <tr>
+                    <td>🐬 Blue Dolphins FC</td>
+                    <td>2 - 8</td>
+                    <td>⚔️ Terminators FC</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Week 7</h2>
+            <table class="donetable">
+                <tr>
+                    <th>Home</th>
+                    <th>Scores</th>
+                    <th>Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 12/12/2023</th>
+                </tr>
+                <!-- WEEK - 7 -->
+                <tr>
+                    <td>🇲🇦 Maghreb FC</td>
+                    <td>12 - 3</td>
+                    <td>🎯 MC FC</td>
+                </tr>
+                    <td>⚔️ Terminators FC</td>
+                    <td>5 - 3</td>
+                    <td>⚡ El Clasico FC</td>
+                <tr>
+                    
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 12/14/2023</th>
+                </tr>
+                <tr>
+                    <td>🦅 Allentown Eagles FC</td>
+                    <td>14 - 6</td>
+                    <td>⚽️ Medina FC</td>
+                </tr>
+                <tr>
+                    <td>🇹🇷 Samanyolu FC</td>
+                    <td>10 - 1</td>
+                    <td>🐬 Blue Dolphins FC</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="teams">
+            <li>‼️ End of leauge games. <b>GROUP STAGES</b> will <b>START</b> after winter break. ‼️</li>
+            <br>
+            <li>☃️ There will be no games from December 18th to January 5th due to winter break. ☃️</li>
+            <br>
+            <li> Teams will be slipt in half to play group stage games.</li>
+            <br>
+            <li>There will be two groups.</li>
+            <br>
+            <li>The first group <b>(Group A)</b> will consist of the first four teams with the most points.</li>
+            <br>
+            <li>The second group <b>(Group B)</b> will consist of the last four teams.</li>
+            <br>
+            <li>Each team in the group will play two games against each other.</li>
+            <br>
+            <li>Totaling six games in the group stages.</li>
+            <br>
+            <li>Schedules will be uploaded after week 7.</li>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Group Stage - Week 1</h2>
+            <table class="donetable">
+                <tr>
+                    <th>Home</th>
+                    <th>Scores</th>
+                    <th>Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 1/9/2024</th>
+                </tr>
+                <!-- Group Stage - Week 1 -->
+                <tr>
+                    <td>⚽️ Medina FC</td>
+                    <td>8 - 8</td>
+                    <td>🇹🇷 Samanyolu FC</td>
+                </tr>
+                <tr>
+                    <td>⚡ El Clasico FC</td>
+                    <td>10 - 5</td>
+                    <td>🇲🇦 Maghreb FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 1/11/2024</th>
+                </tr>
+                <tr>
+                    <td>⚔️ Terminators FC</td>
+                    <td>6 - 4</td>
+                    <td>🦅 Allentown Eagles FC</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Bye Week For: 🐬 Blue Dolphins FC </td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Group Stage - Week 2</h2>
+            <table class="donetable">
+                <tr>
+                    <th colspan="0">Home</th>
+                    <th colspan="0">Scores</th>
+                    <th colspan="0">Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 1/16/2024</th>
+                </tr>
+                <!-- Group Stage - Week 2 -->
+                <tr>
+                    <td>⚔️ Terminators FC</td>
+                    <td>6 - 7</td>
+                    <td>⚡ El Clasico FC</td>
+                </tr>
+                <tr>
+                    <td>🦅 Allentown Eagles FC</td>
+                    <td>3 - 0</td>
+                    <td>🇲🇦 Maghreb FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 1/18/2024</th>
+                </tr>
+                <tr>
+                    <td>🐬 Blue Dolphins FC</td>
+                    <td>7 - 24</td>
+                    <td>⚽️ Medina FC</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Bye Week For: 🇹🇷 Samanyolu FC </td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Group Stage - Week 3</h2>
+            <table class="donetable">
+                <tr>
+                    <th colspan="0">Home</th>
+                    <th colspan="0">Scores</th>
+                    <th colspan="0">Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 1/23/2024</th>
+                </tr>
+                <!-- Group Stage - Week 3 -->
+                <tr>
+                    <td>🇲🇦 Maghreb FC</td>
+                    <td>4 - 3</td>
+                    <td>⚔️ Terminators FC</td>
+                </tr>
+                <tr>
+                    <td>⚡ El Clasico FC</td>
+                    <td>2 - 7</td>
+                    <td>🦅 Allentown Eagles FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 1/25/2024</th>
+                </tr>
+                <tr>
+                    <td>🇹🇷 Samanyolu FC</td>
+                    <td>15 - 5</td>
+                    <td>🐬 Blue Dolphins FC</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Bye Week For: ⚽️ Medina FC </td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Group Stage - Week 4</h2>
+            <table class="donetable">
+                <tr>
+                    <th colspan="0">Home</th>
+                    <th colspan="0">Scores</th>
+                    <th colspan="0">Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 1/30/2024</th>
+                </tr>
+                <!-- Group Stage - Week 4 -->
+                <tr>
+                    <td>⚔️ Terminators FC</td>
+                    <td>4 - 10</td>
+                    <td>🇲🇦 Maghreb FC</td>
+                </tr>
+                <tr>
+                    <td>🦅 Allentown Eagles FC</td>
+                    <td>10 - 3</td>
+                    <td>⚡ El Clasico FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 2/1/2024</th>
+                </tr>
+                <tr>
+                    <td>🐬 Blue Dolphins FC</td>
+                    <td>4 - 12</td>
+                    <td>🇹🇷 Samanyolu FC</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Bye Week For: ⚽️ Medina FC </td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Group Stage - Week 5</h2>
+            <table class="donetable">
+                <tr>
+                    <th colspan="0">Home</th>
+                    <th colspan="0">Scores</th>
+                    <th colspan="0">Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 2/6/2024</th>
+                </tr>
+                <!-- Group Stage - Week 5 -->
+                <tr>
+                    <td>🇲🇦 Maghreb FC</td>
+                    <td>1 - 6</td>
+                    <td>🦅 Allentown Eagles FC</td>
+                </tr>
+                <tr>
+                    <td>⚡ El Clasico FC</td>
+                    <td>11 - 3</td>
+                    <td>⚔️ Terminators FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 2/8/2024</th>
+                </tr>
+                <tr>
+                    <td>🐬 Blue Dolphins FC</td>
+                    <td>8 - 16</td>
+                    <td>⚽️ Medina FC</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Bye Week For: 🇹🇷 Samanyolu FC </td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="done">
+            <h2>Group Stage - Week 6</h2>
+            <table class="donetable">
+                <tr>
+                    <th colspan="0">Home</th>
+                    <th colspan="0">Scores</th>
+                    <th colspan="0">Away</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Tuesday - 2/13/2024</th>
+                </tr>
+                <!-- Group Stage - Week 6 -->
+                <tr>
+                    <td>🇲🇦 Maghreb FC</td>
+                    <td>10 - 5</td>
+                    <td>⚡ El Clasico FC</td>
+                </tr>
+                <tr>
+                    <td>🦅 Allentown Eagles FC</td>
+                    <td>18 - 1</td>
+                    <td>⚔️ Terminators FC</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Thursday - 2/15/2024</th>
+                </tr>
+                <tr>
+                    <td>⚽️ Medina FC</td>
+                    <td>24 - 7</td>
+                    <td>🇹🇷 Samanyolu FC</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Bye Week For: 🐬 Blue Dolphins FC </td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+        
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <!-- Footer content (same as other pages) -->
+    </footer>
+</body>
+</html>

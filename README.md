@@ -1,2 +1,1 @@
 # rsl
-Respect Soccer League
