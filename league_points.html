@@ -22,22 +22,24 @@
     <header>
         <h1>RSL - LEAGUE POINTS</h1>
         <button class="menu-toggle" id="menuToggle">
-            ☰ <span>Menu</span>
+            ☰ <span>Menu</span> ⚽
         </button>
         <nav>
             <ul>
-                <li><a href="./">HOME</a></li>
-                <li><a href="./rules">RULES</a></li>
-                <li><a href="./fixtures">FIXTURES</a></li>
-                <li>
+                <li class="always-show"><a href="./">🏠 HOME</a></li>
+                <li class="always-show"><a href="./fixtures">📅 FIXTURES</a></li>
+              
+                <li class="menu-only"><a href="./rules">📜 RULES</a></li>
+              
+                <li class="menu-only">
                     <select id="myDropdown">
-                        <option value="" selected disabled>POINTS</option>
+                        <option value="" selected disabled>🏆 POINTS</option>
                       
                         <optgroup label="2026 (Current)">
                           <option value="./league_points">League</option>
                         </optgroup>
                       
-                        <optgroup label="Archive 2024">
+                        <optgroup label="Archive - 2024">
                           <option value="./archive/2024_league_points">League</option>
                           <option value="./archive/2024_group_a_points">Group A</option>
                           <option value="./archive/2024_group_b_points">Group B</option>
@@ -48,7 +50,8 @@
                         </optgroup>
                     </select>
                 </li>
-                <li><a href="./teams">TEAMS</a></li>
+              
+                <li class="menu-only"><a href="./teams">👥 TEAMS</a></li>
             </ul>
         </nav>
     </header>
@@ -58,7 +61,7 @@
         <br>
         <br>
         <section>
-            <iframe width="100%" height="370" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS56Wv9VUCSf9WC4qOs-6OZGrbRPRK6dwDeIT0gXpqTVphp31kRkt35uvYxYhF_Pq7-xyXeGnU-EDvb/pubhtml" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="370" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtiiw3SnqCX-ZUdQyTmqlmLSDBVGOBtYivxlWjeYEJ9G1TbeixE2HhucFbzKN6RW8wEw2ZCHpP6lXh/pubhtml?widget=true&amp;headers=false" frameborder="0" allowfullscreen></iframe>
         </section>
         <br>
         <br>

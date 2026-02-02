@@ -22,48 +22,82 @@
     <header>
         <h1>RSL - LEAGUE POINTS</h1>
         <button class="menu-toggle" id="menuToggle">
-            ☰ <span>Menu</span>
+            ☰ <span>Menu</span> ⚽
         </button>
         <nav>
             <ul>
-                <li><a href="../">HOME</a></li>
-                <li><a href="../rules">RULES</a></li>
-                <li><a href="../fixtures">FIXTURES</a></li>
-                <li>
+                <li class="always-show"><a href="../">🏠 HOME</a></li>
+                <li class="always-show"><a href="../fixtures">📅 FIXTURES</a></li>
+              
+                <li class="menu-only"><a href="../rules">📜 RULES</a></li>
+              
+                <li class="menu-only">
                     <select id="myDropdown">
-                        <option value="" selected disabled>POINTS</option>
+                        <option value="" selected disabled>🏆 POINTS</option>
                       
                         <optgroup label="2026 (Current)">
-                          <option value="./league_points">League</option>
+                          <option value="../league_points">League</option>
                         </optgroup>
                       
-                        <optgroup label="Archive 2024">
-                          <option value="./archive/2024_league_points">League</option>
-                          <option value="./archive/2024_group_a_points">Group A</option>
-                          <option value="./archive/2024_group_b_points">Group B</option>
+                        <optgroup label="Archive - 2024">
+                          <option value="../archive/2024_league_points">League</option>
+                          <option value="../archive/2024_group_a_points">Group A</option>
+                          <option value="../archive/2024_group_b_points">Group B</option>
                         </optgroup>
                       
                         <optgroup label="Archive - 2023">
-                          <option value="./archive/2023">League</option>
+                          <option value="../archive/2023">League</option>
                         </optgroup>
                     </select>
                 </li>
-                <li><a href="../teams">TEAMS</a></li>
+              
+                <li class="menu-only"><a href="../teams">👥 TEAMS</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="mainpadding">
-        <br>
-        <br>
-        <br>
-        <section>
-            <iframe width="100%" height="370" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS56Wv9VUCSf9WC4qOs-6OZGrbRPRK6dwDeIT0gXpqTVphp31kRkt35uvYxYhF_Pq7-xyXeGnU-EDvb/pubhtml" frameborder="0" allowfullscreen></iframe>
-        </section>
-        <br>
-        <br>
-        <br>
-        <br>
+    <main>
+        <div class="archive_div">
+            <H2 class="archive">Summer 2023 RSL Points</H2>
+            <img src="../images/2024_league.png" alt="Description of your image">
+            <div>
+                <ol class="archive_ol">
+                    <h1> Group A qualifiers:</h1>
+                    <li>
+                        ⚔️ Terminators FC
+                    </li>
+                    <br>
+                    <li>
+                        🇲🇦 Maghreb FC
+                    </li>
+                    <br>
+                    <li>
+                        🦅 Allentown Eagles FC
+                    </li>
+                    <br>
+                    <li>
+                        ⚡ El Clasico FC
+                    </li>
+
+                    <h1> Group B qualifiers:</h1>
+                    <li>
+                        ⚽️ Medina FC
+                    </li>
+                    <br>
+                    <li>
+                        🇹🇷 Samanyolu FC
+                    </li>
+                    <br>
+                    <li>
+                        🎯 MC FC
+                    </li>
+                    <br>
+                    <li>
+                        🐬 Blue Dolphins FC
+                    </li>
+                </ol>
+            </div>
+        </div>
     </main>
 
     <footer>
